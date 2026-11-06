@@ -4,7 +4,7 @@ A Python program that calculates the two square roots of a complex number using 
 
 ## Overview
 
-Every non-zero complex number has two square roots.
+Every non-zero complex number has exactly two square roots.
 
 This program takes the real and imaginary components of a complex number as input and calculates both square roots using its modulus and argument.
 
@@ -12,42 +12,42 @@ This program takes the real and imaginary components of a complex number as inpu
 
 A complex number can be expressed as:
 
-\[
+$$
 z=x+yi
-\]
+$$
 
 Where:
-- \(x\) = Real part
-- \(y\) = Imaginary part
-- \(i=\sqrt{-1}\)
+- $x$ = Real part
+- $y$ = Imaginary part
+- $i=\sqrt{-1}$
 
 ### 1. Modulus
 
 The modulus of a complex number is:
 
-\[
+$$
 r=|z|=\sqrt{x^2+y^2}
-\]
+$$
 
 ### 2. Argument
 
 The argument is calculated using:
 
-\[
+$$
 \theta=\operatorname{atan2}(y,x)
-\]
+$$
 
 ### 3. Square Roots
 
 Using the polar representation of a complex number, its two square roots are:
 
-\[
+$$
 \omega_1=\sqrt r\left(\cos\frac{\theta}{2}+i\sin\frac{\theta}{2}\right)
-\]
+$$
 
-\[
+$$
 \omega_2=-\sqrt r\left(\cos\frac{\theta}{2}+i\sin\frac{\theta}{2}\right)
-\]
+$$
 
 The program uses SymPy to simplify and expand the resulting expressions.
 
