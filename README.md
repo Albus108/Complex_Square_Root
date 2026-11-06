@@ -34,7 +34,7 @@ $$
 The argument is calculated using:
 
 $$
-\theta=\operatorname{atan2}(y,x)
+\theta=\mathrm{atan2}(y,x)
 $$
 
 ### 3. Square Roots
